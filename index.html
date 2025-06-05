@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piloto</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <div id="container"></div>
-    <h1></h1>
-    </h1>
-</body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piloto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/Avatar hugo 2.png" alt="foto hugo whatsapp padrao" />
+        <p>@hugorodrigues</p>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Inscrever-se no NLW</a>
+        </li>
+
+        <li>
+          <a href="#">Baixar meu e-book</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/HugoRodrigues123">Ver meu portifólio</a>
+        </li>
+
+        <li>
+          <a href="#">Conheça o explorer</a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      const mybtn = document.querySelector("#btn");
+      mybtn.addEventListener("click", (e) => alert("ola vc esta em guarapua"));
+    </script>
+  </body>
 </html>
