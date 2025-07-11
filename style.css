@@ -60,7 +60,10 @@ body * {
 #profile {
   text-align: center;
   padding: 24px;
-  text-decoration: var(--stroke-color);
+}
+
+.modoluz #profile {
+  text-decoration-color: var(--stroke-color);
 }
 
 #profile img {
