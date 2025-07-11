@@ -60,6 +60,7 @@ body * {
 #profile {
   text-align: center;
   padding: 24px;
+  text-decoration: var(--stroke-color);
 }
 
 #profile img {
