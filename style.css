@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/tela\ de\ fundo\ preta.jpg);
+  --bg-url: url(./assets/fundoprp.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: rgba(0, 0, 0, 0.5);
@@ -17,7 +17,7 @@
 
 .modoluz {
   --text-color: black;
-  --bg-url: url(./assets/—Pngtree—sleek\ texture\ of\ white\ and_15299002.jpg);
+  --bg-url: url(./assets/fundobrp.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.5);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -31,7 +31,7 @@ body {
 }
 
 body {
-  background-image: url(./assets/tela\ de\ fundo\ preta.jpg);
+  background-image: url(./assets/fundoprp.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -44,7 +44,7 @@ body * {
 }
 
 .modoluz body {
-  background-image: url(./assets/—Pngtree—sleek\ texture\ of\ white\ and_15299002.jpg);
+  background-image: url(./assets/fundobrp.jpg);
   transition: 1s;
 }
 
